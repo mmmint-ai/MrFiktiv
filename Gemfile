@@ -15,16 +15,22 @@ gem "minima", "~> 2.5"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.12" # https://github.com/jekyll/jekyll-feed
+  gem "jekyll-seo-tag" # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
+  gem 'jekyll-sitemap' # https://github.com/jekyll/jekyll-sitemap
+  gem 'amp-jekyll' # https://github.com/juusaw/amp-jekyll
+  gem 'jekyll-gist' # https://github.com/jekyll/jekyll-gist
+  gem 'jekyll-minifier' # https://github.com/digitalsparky/jekyll-minifier
+  gem 'jekyll-mentions' # https://github.com/jekyll/jekyll-mentions
+  gem 'jekyll-commonmark-ghpages' # https://github.com/github/jekyll-commonmark-ghpages
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
+install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
+gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?

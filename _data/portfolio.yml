@@ -1,0 +1,26 @@
+- title: Ipsum feugiat et dolo
+  image:
+    link: images/pic02.jpg
+    alt: test
+  description:  Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat
+        veroeros lorem blandit adipiscing et feugiat phasellus tempus
+        dolore ipsum lorem dolore.
+  link: /feature1
+
+- name: Ipsum feugiat et dolo 2
+  image:
+    link: images/pic03.jpg
+    alt: test
+  description: Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat
+        veroeros lorem blandit adipiscing et feugiat phasellus tempus
+        dolore ipsum lorem dolore.
+  link: /feature2
+
+- name: Ipsum feugiat et dolo 3
+  image:
+    link: images/pic04.jpg
+    alt: test
+  description: Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat
+        veroeros lorem blandit adipiscing et feugiat phasellus tempus
+        dolore ipsum lorem dolore.
+  link: /feature3
