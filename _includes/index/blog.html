@@ -1,14 +1,10 @@
 <!-- Blog -->
 <section>
-    <header class="major">
-      <h2>The Blog</h2>
-    </header>
-    <div class="row">
-        {% for post in site.posts limit:4 %}
-        {% if post.draft %}
-            {% else %}
-                {% include index/template/post-preview.html %}
-            {% endif %}
-        {% endfor %}
-    </div>
-  </section>
+  <header class="major">
+    <h2 Blog</h2>
+  </header>
+  <div class="row">
+    {% for post in site.posts limit:4 %} {% if post.draft %} {% else %} {%
+    include index/template/post-preview.html %} {% endif %} {% endfor %}
+  </div>
+</section>
