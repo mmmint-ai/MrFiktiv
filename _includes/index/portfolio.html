@@ -1,0 +1,11 @@
+<!-- Portfolio -->
+<section>
+    <header class="major">
+      <h2>My Portfolio</h2>
+    </header>
+    <div class="row">
+        {% for portfolio in site.data.portfolio %}
+            {% include index/template/portfolio-preview.html %}
+        {% endfor %}
+    </div>
+  </section>

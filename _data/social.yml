@@ -1,0 +1,12 @@
+- name: Twitter
+  link: https://twitter.com/MarkWarneke
+  class: brands fa-twitter
+- name: Github
+  link: https://github.com/MarkWarneke
+  class: brands fa-github
+- name: LinkedIn
+  link: https://linkedin.com/in/MarkWarneke
+  class: brands fa-linkedin
+- name: Email
+  link: mailto:warneke.mark@gmail.com
+  class: solid fa-envelope
