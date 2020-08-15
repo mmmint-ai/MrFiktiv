@@ -7,7 +7,7 @@
 - name: LinkedIn
   link: https://linkedin.com/in/mrfiktiv
   class: brands fa-linkedin
-  - name: Instagram
+- name: Instagram
   link: https://instagram.com/mrfiktiv
   class: brands fa-instagram
 - name: Email
