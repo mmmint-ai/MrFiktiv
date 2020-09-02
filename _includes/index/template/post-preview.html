@@ -1,27 +1,25 @@
 <div class="col-6 col-12-small">
-    <section class="box">
-        <a href="{{ post.url | relative_url }}" class="image featured">
-            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
-      </a>
-      <header>
-        <h3>{{ post.title }}</h3>
-        <p>Posted 45 minutes ago</p>
-      </header>
-      <p>
-        {{ 
-            post.excerpt 
-            | strip_html
-            | xml_escape
-        }}
-      </p>
-      <footer>
-        <ul class="actions">
-          <li>
-            <a href="{{ post.url | relative_url }}" class="button icon solid fa-file-alt"
-              >Continue Reading</a
-            >
-          </li>
-        </ul>
-      </footer>
-    </section>
-  </div>
+  <section class="box">
+    {% if post.image %}
+    <a href="{{ post.url | relative_url }}" class="image featured">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
+    </a>
+    {% endif %}
+    <header>
+      <h3>{{ post.title }}</h3>
+      <p>Posted 45 minutes ago</p>
+    </header>
+    <p>{{ post.excerpt | strip_html | xml_escape }}</p>
+    <footer>
+      <ul class="actions">
+        <li>
+          <a
+            href="{{ post.url | relative_url }}"
+            class="button icon solid fa-file-alt"
+            >Continue Reading</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </section>
+</div>
