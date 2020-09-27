@@ -1789,7 +1789,7 @@ button.large,
 /* Image */
 
 .logo {
-  max-width: 100%;
+  height: 80px;
 }
 
 .image {
@@ -2171,7 +2171,7 @@ ul.social li a.fa-google-plus:hover {
   position: relative;
   background: #ffffff;
   border-bottom: solid 1px #ccc;
-  padding: 5em 0 4em 0;
+  padding: 0em 0 2em 0;
   text-align: center;
 }
 
@@ -2180,7 +2180,9 @@ ul.social li a.fa-google-plus:hover {
   font-weight: 900;
   font-size: 2.5em;
   letter-spacing: -0.035em;
-  line-height: 1;
+
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 /* Nav */
@@ -2514,7 +2516,7 @@ ul.social li a.fa-google-plus:hover {
   /* Header */
 
   #header {
-    padding: 4em 0 3em 0;
+    padding: 0em 0 3em 0;
   }
 
   /* Banner */
@@ -2606,7 +2608,7 @@ ul.social li a.fa-google-plus:hover {
   /* Header */
 
   #header {
-    padding: 3.5em 0 3em 0;
+    padding: 0em 0 0em 0;
   }
 
   /* Nav */
@@ -2976,7 +2978,7 @@ ul.social li a.fa-google-plus:hover {
 
   #header {
     text-align: center;
-    padding: 2em 0;
+    padding: 0em 0;
   }
 
   #header h1 {
