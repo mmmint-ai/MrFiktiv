@@ -7,7 +7,7 @@
     {% endif %}
     <header>
       <h3>{{ post.title }}</h3>
-      <p>Posted 45 minutes ago</p>
+      <p>Posted { post.date }}</p>
     </header>
     <p>{{ post.excerpt | strip_html | xml_escape }}</p>
     <footer>
