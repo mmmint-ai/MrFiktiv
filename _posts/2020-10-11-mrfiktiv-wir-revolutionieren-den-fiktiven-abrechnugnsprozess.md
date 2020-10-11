@@ -5,6 +5,8 @@ subtitle: "Einfacher. Transparenter. Günstiger. Schneller. Einfach besser."
 date:   2020-10-11
 ---
 
+Wir revolutionieren den Abrechnungsprozess von Fahrzeugschäden mit Ihrer Versicherung. Einfacher. Transparenter. Günstiger. Schneller. Einfach besser.
+
 # Wieso eigentlich mrfiktiv?
 
 ## Autounfall und keine Lust auf einen lästigen Werkstattbesuch?
