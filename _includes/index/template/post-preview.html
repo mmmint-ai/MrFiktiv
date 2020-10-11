@@ -7,7 +7,7 @@
     {% endif %}
     <header>
       <h3>{{ post.title }}</h3>
-      <p>Erstellt am {{ post.date }}</p>
+      <p>Erstellt am {{ post.date | date: "%-d %B %Y" }}</p>
     </header>
     <p>{{ post.excerpt | strip_html | xml_escape }}</p>
     <footer>
