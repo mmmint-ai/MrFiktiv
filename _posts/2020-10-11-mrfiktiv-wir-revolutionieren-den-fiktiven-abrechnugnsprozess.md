@@ -24,7 +24,7 @@ Diese Frage haben sich die drei Osnabrücker Gründer Max, Max & Mark auch geste
 ## Eine digitale Schadensabrechnung nach Autounfällen – kein Werkstattbesuch, keine Reparatur und schnelles Geld.
 
 
-![screenshot von mrfiktiv vom bearbeitungsstatus](images/posts/2020-10-11-mrfiktiv-wir-revolutionieren-den-fiktiven-abrechnugnsprozess/screenshot_1.jpg)
+![screenshot von mrfiktiv vom bearbeitungsstatus](/images/posts/2020-10-11-mrfiktiv-wir-revolutionieren-den-fiktiven-abrechnugnsprozess/screenshot_1.jpg)
 
 ### Von überall & jeder Zeit
 
@@ -36,7 +36,7 @@ für dich, da wir den Service deutlich effizienter als die Werkstätten vor Ort 
 
 ## In nur wenigen Schritten zum Kostenvoranschlag – unter 5 Minuten.
 
-![screenshot von mrfiktiv fahrzeugschein hochladen](images/posts/2020-10-11-mrfiktiv-wir-revolutionieren-den-fiktiven-abrechnugnsprozess/screenshot_2.jpg)
+![screenshot von mrfiktiv fahrzeugschein hochladen](/images/posts/2020-10-11-mrfiktiv-wir-revolutionieren-den-fiktiven-abrechnugnsprozess/screenshot_2.jpg)
 
 1. **Schadensart bestimmen** um herauszufinden, ob es sich um einen Haftpflicht-, Vollkasko- oder Teilkaskofall handelt.
 2. Schadenfotos aufnehmen auf Basis derer die Partnerwerkstätten den Kostenvoranschlag kalkulieren können.
