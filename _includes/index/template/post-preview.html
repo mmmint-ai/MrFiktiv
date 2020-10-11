@@ -7,7 +7,7 @@
     {% endif %}
     <header>
       <h3>{{ post.title }}</h3>
-      <p>Posted { post.date }}</p>
+      <p>Erstellt am {{ post.date }}</p>
     </header>
     <p>{{ post.excerpt | strip_html | xml_escape }}</p>
     <footer>
@@ -16,7 +16,7 @@
           <a
             href="{{ post.url | relative_url }}"
             class="button icon solid fa-file-alt"
-            >Continue Reading</a
+            >Weiter lesen</a
           >
         </li>
       </ul>
