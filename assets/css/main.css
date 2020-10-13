@@ -231,9 +231,10 @@ sup {
 }
 
 blockquote {
-  border-left: solid 0.75em #dddddd;
+  border-left: 0.75em #dddddd;
   padding: 1em 0 1em 1.5em;
   font-style: italic;
+  font-weight: 600;
 }
 
 h1,
@@ -1705,10 +1706,14 @@ footer {
 .box.post header {
   padding-top: 1em;
   margin: 0 0 2em 0;
+  background-color: rgba(34, 30, 31, 0.98);
+  display: inline-block;
+  padding: 2.5em 3em;
+  border-radius: 5px;
 }
 
 .box.post h2 {
-  font-size: 2.5em;
+  font-size: 1.5em;
   letter-spacing: -0.015em;
 }
 
@@ -1728,11 +1733,25 @@ footer {
 
 .post img {
   max-width: 75%;
-
+  max-height: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+}
+
+.post header h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin: 0 0 0.65em 0;
+}
+
+.post header p {
+  color: #fb7368;
+  padding: 0;
+  font-style: normal;
+  margin: 0;
+  font-size: 1.5em;
 }
 
 /* Button */
