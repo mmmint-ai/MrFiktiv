@@ -1710,6 +1710,7 @@ footer {
   display: inline-block;
   padding: 2.5em 3em;
   border-radius: 5px;
+  width: 100%;
 }
 
 .box.post h2 {

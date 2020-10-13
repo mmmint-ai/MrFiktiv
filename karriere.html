@@ -1,0 +1,60 @@
+---
+layout: sidebar
+---
+
+<div class="row">
+  <div class="col-4 col-12-medium">
+    <!-- Sidebar -->
+    <section class="box">
+      <!-- <a href="#" class="image featured"
+        ><img src="/images/pic09.jpeg" alt=""
+      /></a> -->
+      <header>
+        <h3>Karriere Links</h3>
+      </header>
+      <ul>
+        {% for career in site.data.career %}
+        <li><a href="#{{forloop.index}}">{{ career.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <footer>
+        <a href="/about" class="button">Lerne das Team kennen</a>
+      </footer>
+    </section>
+  </div>
+  <div class="col-8 col-12-medium imp-medium">
+    <!-- Content -->
+    <article class="box post">
+      <!-- <a href="#" class="image featured"
+        ><img src="/images/pic01.jpeg" alt=""
+      /></a> -->
+
+      <header>
+        <h2>Karriere</h2>
+        <p>
+          Join mrfiktiv! Werde ein Teil unseres jungen Teams, Bewirb dich jetzt!
+        </p>
+      </header>
+
+      {% for career in site.data.career %}
+      <section>
+        <h4 id="{{forloop.index}}">{{ career.title }}</h4>
+        <p>{{ career.text }}</p>
+      </section>
+      {% endfor %}
+
+      <footer>
+        <h3>
+          Schreib uns eine E-Mail mit deiner Bewerbung an
+          <a href="mailto:info@mrfiktiv.com">info@mrfiktiv.com</a>
+        </h3>
+        <br />
+
+        <ul class="social">
+          {% for item in site.data.social %} {% include template/social.html %}
+          {% endfor %}
+        </ul>
+      </footer>
+    </article>
+  </div>
+</div>
