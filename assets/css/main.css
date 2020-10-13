@@ -202,7 +202,7 @@ textarea,
 select {
   font-family: "Source Sans Pro";
   font-weight: 300;
-  color: #5d5d5d;
+  color: #333333;
   font-size: 14pt;
   line-height: 1.75em;
 }
@@ -573,6 +573,10 @@ table {
 
 .padded {
   padding-top: 35px !important;
+}
+
+.nolink {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1680px) {
@@ -2301,7 +2305,7 @@ a i {
 /* Banner */
 
 #banner {
-  background: #cce8f4 url("../../images/pic01.jpeg");
+  background: url("../../images/pic01.jpeg");
   background-position: center center;
   /* background-size: auto 100%; */
   background-size: 100% auto;
@@ -2635,6 +2639,15 @@ a i {
   #copyright {
     margin: 0;
   }
+
+  .post img {
+    max-width: 75%;
+    max-height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 
 /* Medium */
@@ -2699,6 +2712,8 @@ a i {
 
   #intro section p {
     margin: 0;
+
+    text-align: center;
   }
 
   #intro .middle:before,
@@ -2865,7 +2880,9 @@ a i {
   }
 
   #navPanel .depth-0 {
-    color: #fff;
+    color: rgba(0, 0, 0, 0.87) !important;
+    border-bottom: rgba(0, 0, 0, 0.12);
+    border-color: rgba(0, 0, 0, 0.12);
   }
 
   body.navPanel-visible #page-wrapper {
@@ -3068,7 +3085,7 @@ a i {
   /* Banner */
 
   #banner {
-    padding: 6em 0;
+    padding: 1em 0;
     margin: 2em 0 0 0;
   }
 
