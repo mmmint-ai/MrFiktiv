@@ -1721,6 +1721,20 @@ footer {
   margin-bottom: 0;
 }
 
+.post p {
+  margin-bottom: 0.8em;
+  text-align: justify;
+}
+
+.post img {
+  max-width: 75%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* Button */
 
 input[type="button"],
@@ -2639,15 +2653,6 @@ a i {
   #copyright {
     margin: 0;
   }
-
-  .post img {
-    max-width: 75%;
-    max-height: 600px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 }
 
 /* Medium */
@@ -2678,6 +2683,10 @@ a i {
 
   .box footer ul.actions li:first-child {
     margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 0.8em;
   }
 
   /* Header */
@@ -2712,7 +2721,8 @@ a i {
 
   #intro section p {
     margin: 0;
-
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
   }
 

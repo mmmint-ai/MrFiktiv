@@ -13,8 +13,9 @@ layout: sidebar
         <h3>FAQ Links</h3>
       </header>
       <ul>
-        <li><a href="#1">Fiktiv abrechnen mit der Haftpflicht</a></li>
-        <li><a href="#2">Fiktiv abrechnen mit der Haftpflicht 2</a></li>
+        {% for faq in site.data.faq %}
+        <li><a href="#{{forloop.index}}">{{ faq.title }}</a></li>
+        {% endfor %}
       </ul>
       <footer>
         <a href="https://app.mrfiktiv.com" class="button alt">
@@ -37,24 +38,12 @@ layout: sidebar
         <h2>FAQ</h2>
       </header>
 
+      {% for faq in site.data.faq %}
       <section>
-        <h4 id="1">Fiktiv abrechnen mit der Haftpflicht</h4>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
-          facilis praesentium, et quos quibusdam ea aliquam laudantium omnis
-          repellendus nulla asperiores eligendi illum corrupti consectetur
-          obcaecati doloremque animi rem voluptas.
-        </p>
+        <h4 id="{{forloop.index}}">{{ faq.title }}</h4>
+        <p>{{ faq.text }}</p>
       </section>
-      <section>
-        <h4 id="2">Fiktiv abrechnen mit der Haftpflicht 2</h4>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
-          facilis praesentium, et quos quibusdam ea aliquam laudantium omnis
-          repellendus nulla asperiores eligendi illum corrupti consectetur
-          obcaecati doloremque animi rem voluptas.
-        </p>
-      </section>
+      {% endfor %}
 
       <a href="https://app.mrfiktiv.com" class="button"
         >Jetzt fiktiv abrechnen!</a

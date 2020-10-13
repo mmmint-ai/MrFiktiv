@@ -1,11 +1,10 @@
 <!-- Portfolio -->
 <section>
-    <header class="major">
-      <h2>Portfolio</h2>
-    </header>
-    <div class="row">
-        {% for portfolio in site.data.portfolio %}
-            {% include index/template/portfolio-preview.html %}
-        {% endfor %}
-    </div>
-  </section>
+  <header class="major">
+    <h2>Portfolio</h2>
+  </header>
+  <div class="row">
+    {% for portfolio in site.data.portfolio %} {% include
+    index/template/portfolio-preview.html %} {% endfor %}
+  </div>
+</section>
