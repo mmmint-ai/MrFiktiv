@@ -151,6 +151,13 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+strong {
+  color: #fb7368 !important;
+  font-weight: 600 !important;
+  font-size: 1.1em;
+  padding-right: 0.1em;
+}
+
 input,
 select,
 textarea {
@@ -173,7 +180,6 @@ html {
 }
 
 body {
-  background: #252122;
   background-image: url("images/bg02.png");
 }
 
@@ -559,6 +565,14 @@ table {
 
 .row.gtr-200.gtr-uniform > * {
   padding-top: 100px;
+}
+
+.unpadded {
+  padding-top: 10px !important;
+}
+
+.padded {
+  padding-top: 35px !important;
 }
 
 @media screen and (max-width: 1680px) {
@@ -1669,8 +1683,11 @@ footer {
 
 .box {
   background: #ffffff;
-  border-bottom: solid 1px #ccc;
+
   padding: 2.75em 1.75em 2.75em 1.75em;
+
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 .box .image.featured {
@@ -2080,6 +2097,10 @@ ul.social li a.fa-google-plus:hover {
 
 /* Icons */
 
+a i {
+  cursor: pointer;
+}
+
 .icon {
   text-decoration: none;
   position: relative;
@@ -2124,7 +2145,6 @@ ul.social li a.fa-google-plus:hover {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   margin: 0 0 4.5em 0;
-  cursor: default;
 }
 
 .icon.featured:before {
@@ -2170,7 +2190,7 @@ ul.social li a.fa-google-plus:hover {
 #header {
   position: relative;
   background: #ffffff;
-  border-bottom: solid 1px #ccc;
+
   padding: 0em 0 2em 0;
   text-align: center;
 }
@@ -2397,12 +2417,54 @@ ul.social li a.fa-google-plus:hover {
   background: #f7f7f7 url("images/bg02.png");
 }
 
+/* content */
+
+#content {
+  position: relative;
+  background: #ffffff;
+  border-bottom: solid 1px #ccc;
+  padding: 0em 0 2em 0;
+  text-align: center;
+}
+
+/* idea */
+
+.boxed {
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+  padding: 50px;
+  margin-top: 20px;
+  /* background: #f7f7f7; */
+}
+
+.boxed p {
+  text-align: left;
+}
+
+#price {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* solution */
+
+#solution ol {
+  text-align: left;
+}
+
+#solution ul {
+  text-align: left;
+  list-style-type: none;
+}
+
 /* Footer */
 
 #footer {
   position: relative;
   color: #858484;
   padding: 4em 0;
+  background: #252122;
 }
 
 #footer:before {

@@ -4,23 +4,113 @@ layout: base
 
 <!-- Header -->
 <section id="header">
+  {% include logo.html %} {% include nav.html %} {% include banner.html %}
+</section>
 
-    {% include logo.html %}
+<section id="content">
+  <section id="idea" class="container boxed">
+    <div class="row">
+      <div class="col-6 col-12-medium">
+        <header>
+          <h2>
+            Autounfall gehabt und keine Lust auf einen lästigen Werkstattbesuch?
+          </h2>
+        </header>
 
-    {% include nav.html %}
+        <p>
+          Immer mehr Autobesitzer lassen nach einem Autounfall den Schaden an
+          Ihrem Auto nicht reparieren. Stattdessen lassen sie sich das Geld von
+          Ihrer Versicherung auszahlen. ​
+          <br />
+          ​ Das mit gutem Grund – im Schnitt lag
+          <strong>die Auszahlungssumme im Jahr 2019 bei 1900€</strong> bei der
+          sogenannten fiktiven Abrechnung. Allerdings ist der Weg zum Geld
+          aufwendig: Werkstattbesuch, teuren Kostenvoranschlag erstellen lassen,
+          mit der Versicherung kommunizieren; die Liste ist lang. ​
+        </p>
+      </div>
+      <div class="col-6 col-12-medium">
+        <img src="/images/SVG/undraw_by_my_car_ttge.svg" style="width: 400px" />
+      </div>
+    </div>
+  </section>
 
-    {% include banner.html %}
+  {% include intro.html %}
 
-    {% include intro.html %}
-
+  <section id="solution" class="container boxed">
+    <div class="row">
+      <header>
+        <h2>
+          mrfiktiv ist eine Plattform, auf der Kunden bei der Abrechnung von
+          Autoschäden geholfen wird.​
+        </h2>
+        <p>
+          Eine digitale Schadensabrechnung nach Autounfällen – kein
+          Werkstattbesuch, keine Reparatur und schnelles Geld. ​
+        </p>
+      </header>
+      <div class="col-6 col-12-medium unpadded">
+        <section class="first padded">
+          <a href="https://app.mrfiktiv">
+            <img src="/images/screenshot.jpg" style="width: 200px" />
+          </a>
+          <a href="https://app.mrfiktiv">
+            <img src="/images/screenshot2.jpg" style="width: 200px" />
+          </a>
+        </section>
+      </div>
+      <div class="col-6 col-12-medium unpadded">
+        <section class="second">
+          <ul>
+            <li>
+              <strong>Von überall & jeder Zeit</strong> einen
+              Versicherungsschaden nach einem Autounfall in nur 5 Minuten
+              abrechnen.
+            </li>
+            <li>
+              <strong>50 % günstiger</strong> für den Endkunden, da wir den
+              Service deutlich effizienter als die Werkstätten vor Ort abbilden.
+            </li>
+          </ul>
+          <h1>
+            In nur wenigen Schritten zum Kostenvoranschlag – unter 5 Minuten. ​
+          </h1>
+          <ol>
+            <li>
+              Schadensart bestimmen​ um herauszufinden, ob es sich um einen
+              Haftpflicht-, Vollkasko- oder Teilkaskofall handelt.​
+            </li>
+            <li>
+              Fahrzeugschein hochladen​ um die relevanten Informationen für die
+              Kalkulation zur Verfügung zu stellen.​
+            </li>
+            <li>
+              Schadenfotos aufnehmen​ auf Basis derer die Partnerwerkstätten den
+              Kostenvoranschlag kalkulieren können.​
+            </li>
+            <li>
+              Servicestufe auswählen​ und Kontaktdaten hinterlegen. mrfiktiv
+              kümmert sich um das Anliegen der Kunden.​
+            </li>
+          </ol>
+          <footer>
+            <ul class="actions">
+              <li>
+                <a href="https://app.mrfiktiv.com" class="button large"
+                  >jetzt Fiktiv abrechnen</a
+                >
+              </li>
+            </ul>
+          </footer>
+        </section>
+      </div>
+    </div>
+  </section>
 </section>
 
 <!-- Main -->
 <section id="main">
-    <div class="container">
-        {{ content }}
-    </div>
+  <div class="container">{{ content }}</div>
 </section>
-
 
 {% include footer.html %}
