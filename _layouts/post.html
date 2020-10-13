@@ -14,10 +14,10 @@ layout: default
 </script>
 
 <article class="box post">
+  {% if page.title %}
   <header>
     <h2>{{page.title}}</h2>
     <p>{{page.subtitle}}</p>
   </header>
-
-  {{ content }}
+  {% endif %} {{ content }}
 </article>
