@@ -1716,6 +1716,8 @@ footer {
 .box.post h2 {
   font-size: 1.5em;
   letter-spacing: -0.015em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
 
 .box.post header > p {
