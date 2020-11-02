@@ -11,11 +11,13 @@ Wir sind in den Top 5 Neugründungen von KW 43 bei starupdector.de gelistet.
 
 [![Screenshot startupdetector.de kw 43](/images/posts/2020-11-02-mrfiktiv-top-5-neugruendung-der-woche-statupdetector-de/Screenshot_2020-11-02.jpg)](https://www.startupdetector.de/weekly-update/43/)
 
-startupdetector informiert über das gesamte Startup-Ökosystem in Deutschland. 
-Was wird gerade neu gegründet? 
-Wer investiert gerade in welche Startups? 
-Suchen Sie ganz neue oder bereits gewachsene Startups? 
-Gründer-Neulinge oder Serial Founders? 
+## Was ist startupdetector?
+
+startupdetector informiert über das gesamte Startup-Ökosystem in Deutschland.
+Was wird gerade neu gegründet?
+Wer investiert gerade in welche Startups?
+Suchen Sie ganz neue oder bereits gewachsene Startups?
+Gründer-Neulinge oder Serial Founders?
 startupdetector hat sie alle auf dem Radar und in seinem Startup-Verzeichnis!
 
 startupdetector beschreibt mrfiktiv als:
@@ -34,5 +36,4 @@ Unser Team arbeitet daher mit Hochdruck an der Fertigstellung der Präsentation.
 
 Wir freuen uns auf den Pitchtag!
 
-- 
 Max, Max & Mark
