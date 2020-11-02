@@ -9,7 +9,7 @@ Mit der Gründung von der MMM Intelligence UG (haftungsbeschränkt) ist unsere F
 Dadurch sind wir auch [statupdetector.de](https://www.startupdetector.de/weekly-update/43/) aufgefallen. 
 Wir sind in den Top 5 Neugründungen von KW 43 bei starupdector.de gelistet.
 
-![Screenshot startupdetector.de kw 43](/images/posts/2020-11-02-mrfiktiv-top-5-neugruendung-der-woche-statupdetector-de/Screenshot_2020-11-02.jpg)
+[![Screenshot startupdetector.de kw 43](/images/posts/2020-11-02-mrfiktiv-top-5-neugruendung-der-woche-statupdetector-de/Screenshot_2020-11-02.jpg)](https://www.startupdetector.de/weekly-update/43/)
 
 startupdetector informiert über das gesamte Startup-Ökosystem in Deutschland. 
 Was wird gerade neu gegründet? 
