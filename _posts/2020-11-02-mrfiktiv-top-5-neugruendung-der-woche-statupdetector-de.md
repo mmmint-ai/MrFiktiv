@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Top 5 Neugründungen der Woche. Das startupdetector Weekly Update"
+title:  "Top 5 Neugründungen der Woche - laut startupdetector weekly"
 subtitle:  "Nächster Meilenstein Seedhouse Osnabrück"
 date:   2020-11-02
 ---
