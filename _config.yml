@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MrFiktiv - Abrechnen leicht gemacht!
+title: mr fiktiv - Unfallschaden günstig abrechnen. Fiktiv abrechnen von zu Hause! 
 email: info@mrfiktiv.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Fiktiv Abrechnen mit MrFiktiv!
+  fiktiv abrechnen mit mr fiktiv!
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "www.mrfiktiv.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: MrFiktiv
+twitter_username: mr_fiktiv
 
 # Build settings
 theme: minima
