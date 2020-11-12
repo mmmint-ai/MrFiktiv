@@ -12,7 +12,7 @@ Das Seedhouse mit Sitz in Osnabrück hilft Start-Ups in seinem ACCELERATOR PROGR
 
 Besonders spannend ist für unser Team von mr fiktiv der Zugriff auf das Netzwerk im Seedhouse. Partner sind aktuell: die Hochschule Osnabrück, die Universität Osnabrück, die WIGOS Wirtschaftsförderung Osnabrücker Land mbH, die WFO Wirtschaftsförderung Osnabrück GmbH, verschiedene externe Berater, Institute, Unternehmensnetzwerke, andere Acceleratoren und vor allem ein breit aufgestelltes Mentorennetzwerk durch die in Gründung befindliche Seedhouse Beteiligungsgesellschaft.
 
-![bild_von_seedhouselogo_hochladen](/images/posts/2020-11-13-mr_fiktiv_joint_das_seedhouse/seedhouselogo.jpg)
+![bild_von_seedhouselogo_hochladen](/images/seedhouselogo.jpg)
 
 ## Folgt uns jetzt auf dieser spannenden Reise mit unserem neuen Partner an der Seite
 1. [Facebook](https://www.facebook.com/mrfiktiv/)
