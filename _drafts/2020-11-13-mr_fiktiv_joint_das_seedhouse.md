@@ -5,7 +5,7 @@ subtitle: "Mit Aufnahme in diesem Start-Up Accelerator bekommt unsere Feierabend
 date:   2020-11-13
 ---
 
-# Von der Feierabendgründung ins Aufzuchtbecken für Food, Agrar und Digitales
+# Der Sprung ins Aufzuchtbecken für Food, Agrar und Digitales
 > Ein halbes Jahr lang werden wir nun von erfahrerenen Unternehmenspartnern beraten, gecoacht und unterstützt im Feintuning unserer Geschäftsidee.
 
 Das Seedhouse mit Sitz in Osnabrück hilft Start-Ups in seinem ACCELERATOR PROGRAMM in wenigen Monaten von der Business-Idee zur Marktreife. Die Unterstützung besteht aus der Bereitstellung von kostenloser Büroinfrastruktur, individuellem Coaching und Mentoring sowie Zugang zu einem Netzwerk aus potenziellen Kunden, Investoren und Partnern aus dem erweiterten Wirtschaftsraum Osnabrück. Wir freuen uns auf die vielen Workshops, Pitch-Trainings sowie Masterclasses zu spezifischen Fragestellungen. 
