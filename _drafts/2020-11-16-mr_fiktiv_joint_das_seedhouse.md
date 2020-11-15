@@ -11,7 +11,7 @@ date: 2020-11-16
 
 Das <strong>Seedhouse</strong> mit Sitz in Osnabrück hilft Start-Ups in seinem **ACCELERATOR PROGRAMM** in wenigen Monaten von der Business-Idee zur Marktreife. Die Unterstützung besteht aus unterschiedlichen Hilfestellungen. Von der Bereitstellung kostenloser Büroinfrastruktur, individuellem Coaching und Mentoring, sowie dem Zugang zu einem breiten Netzwerk aus potenziellen Kunden, Investoren und Partnern aus dem erweiterten Wirtschaftsraum Osnabrück. Wir freuen uns bereits auf die vielen Workshops, Trainings und Masterclasses die das Seedhouse anbietet. 
 
-[![logo seedhouse](/images/posts/2020-11-16-mr_fiktiv_joint_das_seedhouse/seedhouselogo.jpg)](https://www.seedhouse.de/)
+[![logo seedhouse](/images/posts/2020-11-16-mr_fiktiv_joint_das_seedhouse/seedhouselogo.png)](https://www.seedhouse.de/)
 
 Besonders spannend ist für unser Team von <strong>mr fiktiv</strong> der Zugriff auf das Netzwerk. Die Partner des Seedhouse sind aktuell: die Hochschule Osnabrück, die Universität Osnabrück, die WIGOS Wirtschaftsförderung Osnabrücker Land mbH, die WFO Wirtschaftsförderung Osnabrück GmbH, sowie verschiedene externe Berater, Institute, Unternehmensnetzwerke und andere Acceleratoren.  Das Seedhouse überzeugt außerden durch ein breit aufgestelltes Mentorennetzwerk.
 
