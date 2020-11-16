@@ -20,7 +20,7 @@ Besonders spannend ist für unser Team von <strong>mr fiktiv</strong> der Zugrif
 Wir von mr fiktiv sind nicht nur durch den Einstieg in dem Seedhouse auf der Suche nach Mitarbeitern die uns dabei helfen den Abrechnungsprozesses nach Autoschäden mit Versicherungen zu revolutionieren.
 Mithilfe unserer Erfahrungen in den Bereichen Künstliche Intelligenz, Software-Entwicklung sowie dem Know-How innerhalb des Kfz-Markts versuchen wir in den nächsten Wochen den Markteintritt zu realisieren. Sei dabei und bau mit uns das Startup in dieser spannenden Phase gemeinsam auf!
 
-<a href="/karriere.html" class="button">Karriere - Werde ein Teil des Teams, klick hier!</a>
+<a href="/karriere/" class="button">Karriere - Werde ein Teil des Teams, klick hier!</a>
 
 ## Folgt uns jetzt auf dieser spannenden Reise mit unserem neuen Partner an der Seite
 
