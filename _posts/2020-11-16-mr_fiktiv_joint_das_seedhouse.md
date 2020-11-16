@@ -5,9 +5,9 @@ subtitle: "Mit Aufnahme in diesem Start-Up Accelerator bekommt unsere Gründung 
 date: 2020-11-16
 ---
 
-# Proud to be a part of Batch 6 im Seedhouse
-
 > Ein halbes Jahr lang werden wir nun von erfahrerenen Unternehmenspartnern beraten, gecoacht und unterstützt. Das Seedhouse hilft uns außerdem mit Erfahrung im Feintuning unserer Geschäftsidee.
+
+# Proud to be a part of Batch 6 im Seedhouse
 
 Das <strong>Seedhouse</strong> mit Sitz in Osnabrück hilft Start-Ups in seinem **ACCELERATOR PROGRAMM** in wenigen Monaten von der Business-Idee zur Marktreife. Die Unterstützung besteht aus unterschiedlichen Hilfestellungen. Von der Bereitstellung kostenloser Büroinfrastruktur, individuellem Coaching und Mentoring sowie dem Zugang zu einem breiten Netzwerk aus potenziellen Kunden, Investoren und Partnern aus dem erweiterten Wirtschaftsraum Osnabrück. Wir freuen uns bereits auf die vielen Workshops, Trainings und Masterclasses, die das Seedhouse anbietet. 
 
