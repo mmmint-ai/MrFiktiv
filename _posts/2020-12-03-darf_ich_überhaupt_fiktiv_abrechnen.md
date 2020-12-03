@@ -9,7 +9,7 @@ date: 2020-12-03
 
 # Proud to be a part of Batch 6 im Seedhouse
 
-Das <strong>Seedhouse</strong> mit Sitz in Osnabrück hilft Start-Ups in seinem **ACCELERATOR PROGRAMM** in wenigen Monaten von der Business-Idee zur Marktreife. Die Unterstützung besteht aus unterschiedlichen Hilfestellungen. Von der Bereitstellung kostenloser Büroinfrastruktur, individuellem Coaching und Mentoring sowie dem Zugang zu einem breiten Netzwerk aus potenziellen Kunden, Investoren und Partnern aus dem erweiterten Wirtschaftsraum Osnabrück. Wir freuen uns bereits auf die vielen Workshops, Trainings und Masterclasses, die das Seedhouse anbietet. 
+Das <strong>Seedhouse</strong> mit Sitz in Osnabrük hilft Start-Ups in seinem **ACCELERATOR PROGRAMM** in wenigen Monaten von der Business-Idee zur Marktreife. Die Unterstützung besteht aus unterschiedlichen Hilfestellungen. Von der Bereitstellung kostenloser Büroinfrastruktur, individuellem Coaching und Mentoring sowie dem Zugang zu einem breiten Netzwerk aus potenziellen Kunden, Investoren und Partnern aus dem erweiterten Wirtschaftsraum Osnabrück. Wir freuen uns bereits auf die vielen Workshops, Trainings und Masterclasses, die das Seedhouse anbietet. 
 
 [![logo seedhouse](/images/posts/2020-11-16-mr_fiktiv_joint_das_seedhouse/seedhouse.png)](https://www.seedhouse.de/)
 
