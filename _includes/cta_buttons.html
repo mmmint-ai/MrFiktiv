@@ -1,0 +1,5 @@
+<p class="block-buttons">
+  {% for action in include.actions %}
+  <a href="{{ action.url | relative_url }}" class="button secondary">{{ action.label }}</a>
+  {% endfor %}
+</p>

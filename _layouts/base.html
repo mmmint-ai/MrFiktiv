@@ -1,25 +1,184 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>
+      {% assign title_is_not_empty = page.title | is_not_empty %}{% if
+      title_is_not_empty %}{{ page.title }} - {% endif %}{{ site.title }}
+    </title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"content="building smart solutions. Osnabrücker Talentschmiede für Künstliche Intelligenz und Digitales."/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i"
+      rel="stylesheet"
     />
-  <title>
-    {% if page.use-site-title %}
-    {{ site.title }}
-    {{ site.description }}
-    {% elsif page.title %}{{ page.title }}{% else %}{{
-      site.title
-    }}{% endif %}
-  </title>
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    {% seo %} {% include google.html %}
+    <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
+
+    <noscript
+      >ePrivacy and GPDR Cookie Consent by
+      <a href="https://www.CookieConsent.com/" rel="nofollow noopener">
+        Cookie Consent
+      </a>
+    </noscript>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      type="text/plain"
+      cookie-consent="tracking"
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-178049998-1"
+    ></script>
+    <script type="text/plain" cookie-consent="tracking">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+          dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-178049998-1");
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+
+    {% if page.meta-title %}
+    <meta property="og:title" content="{{ page.meta-title }}" />
+    {% elsif page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:title" content="{{ site.title }}" />
+    {% endif %} {% if page.meta-description %}
+    <meta property="og:description" content="{{ page.meta-description }}" />
+    <meta property="description" content="{{ page.meta-description }}" />
+    {% elsif page.subtitle %}
+    <meta property="og:description" content="{{ page.subtitle }}" />
+    <meta property="description" content="{{ page.subtitle }}" />
+    {% else %}
+    <meta
+      property="og:description"
+      content="{{ page.content | strip_html | xml_escape | truncatewords: 100 }}"
+    />
+    <meta
+      property="description"
+      content="{{ page.content | strip_html | xml_escape | truncatewords: 100 }}"
+    />
+    {% endif %}
+
+    <meta property="og:type" content="website" />
+    <meta name="author" content="mmmint-ai" />
+
+    {% if page.id %}
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    {% else %}
+    <meta
+      property="og:url"
+      content="{{ page.url | absolute_url | strip_index }}"
+    />
+    <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}" />
+    {% endif %} {% if page.share-img %}
+    <meta property="og:image" content="{{ page.share-img | absolute_url }}" />
+    {% endif %}
+
+    <!-- Twitter summary cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@mmmint_ai" />
+    <meta name="twitter:creator" content="@mmmint_ai" />
+
+    {% if page.meta-title %}
+    <meta name="twitter:title" content="{{ page.meta-title }}" />
+    {% elsif page.title %}
+    <meta name="twitter:title" content="{{ page.title }}" />
+    {% else %}
+    <meta name="twitter:title" content="{{ site.title }}" />
+    {% endif %} {% if page.meta-description %}
+    <meta name="twitter:description" content="{{ page.meta-description }}" />
+    {% elsif page.subtitle %}
+    <meta name="twitter:description" content="{{ page.subtitle }}" />
+    {% else %}
+    <meta
+      name="twitter:description"
+      content="{{ page.content | strip_html | xml_escape | truncatewords: 100 }}"
+    />
+    {% endif %} {% if page.share-img %}
+    <meta name="twitter:image" content="{{ page.share-img | absolute_url }}" />
+    {% endif %}
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.title }}  {{ site.description }}"
+      href="{{ '/feed.xml' | absolute_url }}"
+    />
   </head>
-  <body class="homepage is-preload">
-    <div id="page-wrapper">{{ content }}</div>
+
+  <body>
+    {{ content }}
+    <!-- Scripts -->
+
+    <!-- Cookie Consent by https://www.CookieConsent.com -->
+    <script
+      type="text/javascript"
+      src="//www.cookieconsent.com/releases/3.1.0/cookie-consent.js"
+    ></script>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function () {
+        cookieconsent.run({
+          notice_banner_type: "headline",
+          consent_type: "express",
+          palette: "light",
+          language: "de",
+          website_name: "mmmint.ai",
+          cookies_policy_url: "https://www.mmmint.ai/impressum",
+        });
+      });
+    </script>
+
+    <script src="{{ 'assets/js/plugins.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/init.js' | relative_url }}"></script>
+	<script src="{{ 'assets/js/main.js' | relative_url }}"></script>
+	
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "AutomotiveBusiness",
+		  "image": [
+        "https://www.mmmint.ai/images/logo.png"
+		  ],
+		  "@id": "https://www.mmmint.ai/",
+		  "name": "mmmint",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "Auf der Halle 25a",
+			"addressLocality": "Georgsmarienhütte",
+			"addressRegion": "Niedersachsen",
+			"postalCode": "49124",
+			"addressCountry": "DE"
+		  },
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 52.206295013427734,
+			"longitude": 8.103248596191406
+		  },
+		  "url": "https://www.mmmint.ai/",
+		  "openingHoursSpecification": 
+		  [
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			  ],
+			  "opens": "9:00",
+			  "closes": "18:00"
+			}
+		  ]
+		}
+		</script>
   </body>
-  {% include scripts.html %}
 </html>

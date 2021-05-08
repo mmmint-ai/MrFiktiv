@@ -1,0 +1,39 @@
+<section id="{{ include.section.section_id }}" class="block posts-block bg-{{ include.section.bg }} outer">
+  <div class="block-header inner-small">
+    <h2 class="block-title">{{ include.section.title }}</h2>
+    {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
+    {% if subtitle_is_not_empty %}
+    <p class="block-subtitle">
+      {{ include.section.subtitle }}
+    </p>
+    {% endif %}
+  </div><!-- .block-header -->
+  <div class="inner">
+    <div class="post-feed">
+    {% for post in site.posts limit:3 %}
+      <article class="post post-card">
+        <div class="post-card-inside">
+          {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
+          {% if thumb_img_path_is_not_empty %}
+          <a class="post-card-thumbnail" href="{{ post.url | relative_url }}"><img class="thumbnail"
+              src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}" /></a>
+          {% endif %}
+          <div class="post-card-content">
+            <header class="post-header">
+              <h3 class="post-title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h3>
+            </header>
+            <div class="post-excerpt">
+              <p>{{ post.excerpt }}</p>
+            </div>
+            <footer class="post-meta">
+              <time class="published"
+                datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%B %d, %Y' }}</time>
+                <span> - {{ post.time }}</span>
+            </footer>
+          </div><!-- .post-card-content -->
+        </div><!-- .post-card-inside -->
+      </article><!-- .post -->
+      {% endfor %}
+    </div><!-- .post-feed -->
+  </div><!-- .inner -->
+</section><!-- .block -->

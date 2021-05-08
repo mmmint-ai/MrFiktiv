@@ -1,0 +1,46 @@
+<header id="masthead" class="site-header outer">
+  <div class="inner">
+    <div class="site-header-inside">
+
+      <div class="site-branding">
+        {% assign logo_img_is_not_empty = site.header.logo_img | is_not_empty %}
+        {% if logo_img_is_not_empty %}
+        <p class="site-logo">
+          <a href='{{ '/' | relative_url }}'>
+            <img src="{{ site.header.logo_img | relative_url }}" alt="Logo" />
+          </a>
+        </p><!-- .site-logo -->
+        {% endif %}
+      {% if page.layout == 'home' or page.layout == 'blog' %}
+        <h1 class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></h1>
+        {% else %}
+        <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></p>
+        {% endif %}
+      </div><!-- .site-branding -->
+
+      {% if site.header.nav and site.header.has_nav %}
+      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+        <div class="site-nav-inside">
+          <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span
+              class="icon-close" aria-hidden="true"></span></button>
+          <ul class="menu">
+            {%- for link in site.header.nav -%}
+            {% assign current = page.url | split:'/' | second %}
+            <li class="menu-item {% if current == link[1] %} current-menu-item{% endif %}">
+              <a href="{{ link[1] | relative_url }}">{{ link[0]}}</a>
+            </li>
+           
+            {%- endfor -%}  
+             <li class="menu-item menu-button">
+                <a href="/contact" class="button">Kontakt</a>
+              </li>
+          </ul><!-- .menu -->
+        </div><!-- .site-nav-inside -->
+      </nav><!-- .site-navigation -->
+      <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-menu" aria-hidden="true"></span></button>
+      {% endif %}
+
+    </div><!-- .site-header-inside -->
+  </div><!-- .inner -->
+</header><!-- .site-header -->

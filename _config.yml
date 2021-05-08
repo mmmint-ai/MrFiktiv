@@ -1,48 +1,81 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: mmmint.ai - building smart solutions
+baseurl: /
+permalink: "/:year/:month/:day/:title/"
+collections:
+  posts:
+    permalink: "/blog/:year/:month/:day/:title/"
 
-title: mr fiktiv - Unfallschaden günstig abrechnen. Fiktiv abrechnen von zu Hause! 
-email: info@mrfiktiv.com
-description: >- # this means to ignore newlines until "baseurl:"
-  fiktiv abrechnen mit mr fiktiv!
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "www.mrfiktiv.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mr_fiktiv
+header:
+  title: mmmint.ai
+  logo_img: images/logo.png
+  has_nav: true
+  nav:
+    Home: "index"
+    Blog: "blog"
+    Solutions: "solutions"
+  palette: blue
+  menu:
+    actions:
+      - label: Sign Up
+        url: /signup
+footer:
+  logo_img: images/logo_alt.png
+  tagline: mmmint.ai - building smart solutions
+  content: "&copy; MMM Intelligence UG (haftungsbeschränkt). All rights reserved."
+  links:
+    - text: Impressum
+      url: "/impressum"
+      new_window: false
+    - text: Datenschutz
+      url: "/datenschutz"
+      new_window: false
 
-# Build settings
-theme: minima
+  social_title: Community
 
-permalink: /:year/:month/:day/:title/
+  nav_title: Company
+  nav:
+    Home: "index"
+    Blog: "blog"
+    Solutions: "solutions"
+    Workshops: "workshops"
+    Career: "career"
+    About: "about"
+    Status: "solutions/status"
 
-# jekyll-sitemap
+  has_subscribe: true
+  subscribe_title: "Subscribe"
+  subscribe_content: "Melde dich jetzt bei unserem Newsletter an und bleibe immer auf dem neuesten Stand. Wir berichten als Start-Up rund um KI & Digitales."
+
 defaults:
-  - scope:
-      path: "assets/**/*.pdf"
+  -
+    scope:
+      path:            "drafts/**"
     values:
-      sitemap: false
+      sitemap:         false
+  -
+    scope:
+      path:            "images/**"
+    values:
+      sitemap:         false
 
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md
-  - jekyll-sitemap # https://github.com/jekyll/jekyll-sitemap
-  - jekyll-feed # https://github.com/jekyll/jekyll-feed
-  - jekyll-gist # https://github.com/jekyll/jekyll-gist
-  - jekyll-minifier # https://github.com/digitalsparky/jekyll-minifier
-  - jekyll-mentions # https://github.com/jekyll/jekyll-mentions
+  - jekyll-menus
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - ssg-build.sh
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
