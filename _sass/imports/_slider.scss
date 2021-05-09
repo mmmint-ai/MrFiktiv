@@ -1,0 +1,16 @@
+#image-slider {
+  height: 100%;
+  width: 100%;
+
+  .splide__slide {
+    max-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-height: 250px;
+    }
+  }
+}

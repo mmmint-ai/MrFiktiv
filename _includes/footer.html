@@ -1,80 +1,71 @@
-<!-- Footer -->
-<section id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-8 col-12-medium">
-        <section>
-          <header>
-            <h2>Kontaktiere uns!</h2>
-          </header>
-          <ul class="social">
-            {% for item in site.data.social %} {% include template/social.html
-            %} {% endfor %}
-          </ul>
-          <ul class="contact">
-            <li>
-              <h3>Address</h3>
-              <p>
-                MMM Intelligence UG (haftungsbeschränkt)<br />
-                Auf der Halle 25a<br />
-                49124 Georgsmarienhütte<br />
-              </p>
-            </li>
-            <li>
-              <h3>Mail</h3>
-              <p><a href="#">info@mrfiktiv.com</a></p>
-            </li>
-            <li></li>
-            <h3>Karriere</h3>
-            <p>
-              <a href="/karriere"
-                >Join mrfiktiv! Werde ein Teil des Teams, klick hier!</a
-              >
-            </p>
-            <!-- <li>
-                            <h3>Phone</h3>
-                            <p>(800) 000-0000</p>
-                        </li> -->
-          </ul>
-        </section>
-      </div>
-      <div class="col-4 col-12-medium">
-        <section>
-          <header>
-            <h2>Warum mrfiktiv?</h2>
-          </header>
-          <!-- <a href="#" class="image featured"
-            ><img src="images/pic10.jpg" alt=""
-          /></a> -->
-          <p>
-            Nicht jeder Schaden am Fahrzeug muss gleich repariert werden. Wir
-            bieten Nutzern die Möglichkeit, einfach fiktiv abzurechnen. Das
-            Ganze sogar ohne einen lästigen Werkstattbesuch und digital von zu
-            Hause. Mit nur ein paar Klicks kann jeder Autofahrer einfach an sein
-            Geld kommen & das dazu noch günstiger als bei der Werkstatt um die
-            Ecke!
+<footer id="colophon" class="site-footer">
+  <div class="footer-top outer">
+    <div class="inner">
+      <div class="footer-widgets">
+
+        <div class="widget footer-branding">
+          {% assign logo_img_is_not_empty = site.footer.logo_img | is_not_empty %}
+          {% if logo_img_is_not_empty %}
+          <p class="site-logo">
+            <a href='{{ '/' | relative_url }}'><img src="{{ site.footer.logo_img | relative_url }}" alt="Logo"
+                style="max-height: 150px;" /></a>
           </p>
-          <footer>
-            <ul class="actions">
-              <li><a href="https://www.mmmint.ai/about/" class="button">Zum mrfiktiv Team</a></li>
-            </ul>
-          </footer>
-        </section>
-      </div>
-      <div class="col-4 col-12-medium"></div>
-      <div class="col-12">
-        <!-- Copyright -->
-        <div id="copyright">
-          <ul class="links">
-            <li>
-              <a href="https://mmmint.ai" target="_blank"
-                >MMM Intelligence UG (haftungsbeschränkt)</a
-              >
-            </li>
-            <li><a href="/impressum">Impressum</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+          {% else %}
+          <p class="site-title">
+            <a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a>
+          </p>
+          {% endif %}
+          {% assign tagline_is_not_empty = site.footer.tagline | is_not_empty %}
+          {% if tagline_is_not_empty %}
+          <p class="site-description">
+            {{ site.footer.tagline }}
+          </p>
+          {% endif %}
+        </div><!-- .widget -->
+
+
+        <nav class="widget footer-navigation">
+          <div class="footer-nav-inside">
+            <div class="secondary-nav">
+              <h2 class="widget-title">{{ site.footer.nav_title }}</h2>
+              <ul class="secondary-menu">
+                {%- for link in site.footer.nav -%}
+                <li>
+                  <a href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div><!-- .secondary-nav -->
+            <div class="social-nav">
+              <h2 class="widget-title">{{ site.footer.social_title }}</h2>
+              {% include social.html %}
+            </div><!-- .social-nav -->
+          </div><!-- .footer-nav-inside -->
+        </nav><!-- .widget -->
+        {% assign has_subscribe_is_not_empty = site.footer.has_subscribe | is_not_empty %}
+        {% if has_subscribe_is_not_empty %}
+        <div class="widget footer-subscribe">
+          <h2 class="widget-title">{{ site.footer.subscribe_title }}</h2>
+          {% assign subscribe_content_is_not_empty = site.footer.subscribe_content | is_not_empty %}
+          {% if subscribe_content_is_not_empty %}
+          <p>{{ site.footer.subscribe_content }}</p>
+          {% endif %}
+          {% include subscribe_form.html %}
+        </div><!-- .widget -->
+        {% endif %}
+      </div><!-- .footer-widgets -->
+    </div><!-- .inner -->
+  </div><!-- .outer -->
+
+  <div class="site-info outer">
+    <div class="inner">
+      {{ site.footer.content }}
+      &nbsp;
+      {% for link in site.footer.links %}
+      <a href="{{ link.url }}" {% assign new_window_is_not_empty=link.new_window | is_not_empty %}{% if
+        new_window_is_not_empty %}target="_blank" rel="noopener" {% endif %}>{{ link.text }}</a>.
+      {% endfor %}
+    </div><!-- .inner -->
+  </div><!-- .site-info -->
+
+</footer><!-- .site-footer -->

@@ -1,64 +1,35 @@
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+// Responsive video embeds
+var videoEmbeds = [
+  'iframe[src*="youtube.com"]',
+  'iframe[src*="vimeo.com"]'
+];
+reframe(videoEmbeds.join(','));
 
-(function($) {
+// Mobile menu
+var menuToggle = document.querySelectorAll('.menu-toggle');
 
-	var	$window = $(window),
-		$body = $('body');
+for (var i = 0; i < menuToggle.length; i++) {
+  menuToggle[i].addEventListener('click', function(e){
+    document.body.classList.toggle('menu--opened');
+    e.preventDefault();
+  },false);
+}
 
-	// Breakpoints.
-		breakpoints({
-			xlarge:  [ '1281px',  '1680px' ],
-			large:   [ '981px',   '1280px' ],
-			medium:  [ '737px',   '980px'  ],
-			small:   [ null,      '736px'  ]
-		});
+document.body.classList.remove('menu--opened');
 
-	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
+window.addEventListener('resize', function () {
+  if (menuToggle.offsetParent === null) {
+    document.body.classList.remove('menu--opened');
+  }
+}, true);
 
-	// Dropdowns.
-		$('#nav > ul').dropotron({
-			mode: 'fade',
-			noOpenerFade: true,
-			alignment: 'center'
-		});
-
-	// Nav.
-
-		// Title Bar.
-			$(
-				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-				'</div>'
-			)
-				.appendTo($body);
-
-		// Panel.
-			$(
-				'<div id="navPanel">' +
-					'<nav>' +
-						$('#nav').navList() +
-					'</nav>' +
-				'</div>'
-			)
-				.appendTo($body)
-				.panel({
-					delay: 500,
-					hideOnClick: true,
-					hideOnSwipe: true,
-					resetScroll: true,
-					resetForms: true,
-					side: 'left',
-					target: $body,
-					visibleClass: 'navPanel-visible'
-				});
-
-})(jQuery);
+// Accordion
+var accordions = document.querySelectorAll('.faq-accordion');
+Array.from(accordions).forEach((accordion) => {
+  var ba = new BadgerAccordion(accordion, {
+    headerClass: '.accordion-trigger',
+    panelClass: '.accordion-panel',
+    panelInnerClass: '.accordion-content',
+    openMultiplePanels: true
+  });
+});

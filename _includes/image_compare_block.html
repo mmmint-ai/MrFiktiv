@@ -1,0 +1,30 @@
+<script src="/assets/js/modernizr.js"></script> <!-- Modernizr -->
+<section id="{{ include.section.section_id }}" {% if include.section.inline %} {% else %} class="block features-block bg-{{ include.section.bg | default: "gray" }} outer"  {% endif %}>
+    <div class="block-header inner-small">
+        <h2 class="block-title">{{ include.section.title }}</h2>
+        {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
+        {% if subtitle_is_not_empty %}
+        <p class="block-subtitle">
+            {{ include.section.subtitle }}
+        </p>
+        {% endif %}
+    </div><!-- .block-header -->
+    <div class="inner">
+        <figure class="cd-image-container">
+            <img src="{{ include.section.image.right.src | relative_url }}" alt="{{ include.section.image.right.alt }}">
+            <span class="cd-image-label" data-type="original">{{ include.section.image.right.alt}}</span>
+            <div class="cd-resize-img">
+                <!-- the resizable image on top -->
+                <img src="{{ include.section.image.left.src | relative_url }}" alt="{{ include.section.image.left.alt }}">
+                <span class="cd-image-label" data-type="modified">{{ include.section.image.left.alt}}</span>
+            </div>
+            <span class="cd-handle"></span>
+        </figure> <!-- cd-image-container -->
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/assets/js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
+<script src="/assets/js/slider.js"></script>
+<script src="/assets/js/main.js"></script>

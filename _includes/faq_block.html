@@ -1,0 +1,52 @@
+<section id="{{ include.section.section_id }}" class="block faq-block bg-{{ include.section.bg }} outer">
+  <div class="inner-small">
+    <div class="block-header">
+      <h2 class="block-title">{{ include.section.title }}</h2>
+      {% assign subtitle_is_not_empty = include.section.subtitle | is_not_empty %}
+      {% if subtitle_is_not_empty %}
+      <p class="block-subtitle">
+        {{ include.section.subtitle }}
+      </p>
+      {% endif %}
+    </div><!-- .block-header -->
+    {% assign faqitems_is_not_empty = include.section.faqitems | is_not_empty %}
+    {% if faqitems_is_not_empty %}
+    <dl class="faq-accordion">
+      {% for faqitem in include.section.faqitems %}
+      <dt class="accordion-header">
+        <button class="accordion-trigger">
+          <div class="accordion-title">{{ faqitem.question }}</div>
+          <div class="accordion-icon icon-plus"></div>
+        </button>
+      </dt>
+      <dd class="accordion-panel">
+        <div class="accordion-content">
+          {{ faqitem.answer | markdownify }}
+        </div>
+      </dd>
+      {% endfor %}
+    </dl><!-- .faq-accordion -->
+    {% endif %}
+  </div><!-- .inner-small -->
+</section><!-- .block -->
+
+{% assign faqitems_is_not_empty = include.section.faqitems | is_not_empty %}
+{% if faqitems_is_not_empty %}
+<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "FAQPage",
+    "mainEntity": [
+      {% for faqitem in include.section.faqitems %}
+      {
+        "@type": "Question",
+        "name": "{{ faqitem.question }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ faqitem.answer | markdownify | replace: '"', '\"' | strip_newlines }}"
+        }
+      }{% unless forloop.last %},{% endunless %}{% endfor %}
+    ]
+  }
+</script>
+{% endif %}
