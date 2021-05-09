@@ -1,108 +1,9 @@
 ---
-title: Home
+title: FAQ
 subtitle: >-
-  Schaden am Auto und Lust auf bares Geld? Jetzt fiktiv abrechnen. Bequem von zu Hause & ohne Werkstattbesuch.
+  Häufig gestellte Fragen.
 share-image: images/logo.png
 sections:
-
-  - section_id: hero
-    component: hero_block.html
-    type: heroblock
-    image: images/SVG/undraw_by_my_car_ttge.svg
-    title: mrfiktiv
-    content: >-
-      Schaden am Auto und Lust auf bares Geld? Jetzt fiktiv abrechnen. Bequem von zu Hause & ohne Werkstattbesuch. Wir wickeln deinen Schaden für dich ab.
-    actions:
-      - label: Fiktiv abrechnen.
-        url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
-
-  - section_id: solutions
-    component: features_block.html
-    type: featuresblock
-    bg: gray
-    title: Deine Vorteile auf einen Blick.
-    subtitle: >-
-      <img src="/images/check.png" alt="check" width="40" height="40">   Schnelle Abwicklung deines Schaden </br>
-      <img src="/images/check.png" alt="check" width="40" height="40">   Bares Geld von der Versicherung erhalten </br>
-      <img src="/images/check.png" alt="check" width="40" height="40">   50 % günstiger als auf dem klassischen Wege </br>
-      <img src="/images/check.png" alt="check" width="40" height="40">   von überall und jederzeit komplett digital </br>
-      <img src="/images/check.png" alt="check" width="40" height="40">   Keine Wartezeiten und bequem von zu Hause </br>
-      <img src="/images/check.png" alt="check" width="40" height="40">   Partnerwekstätten deutschlandweit
-    featureslist:  
-      - title: Wir wickeln deinen Schaden ab
-        image: images/stepper/schadensabwicklung_overview_1.png
-        content: >-
-          mrfiktiv ist eine Plattform, auf der Kunden bei der Abrechnung von Autoschäden geholfen wird.​ Eine digitale Schadensabrechnung nach Autounfällen – kein Werkstattbesuch, keine Reparatur und schnelles Geld. ​
-        actions:
-          - label: Jetzt abrechnen
-            url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
-      - title: Unter 5 Minuten Zeitaufwand.
-        image: images/stepper/schadensabwicklung_overview_2.png
-        content: >-
-          Lass uns einfach ein paar Details zum Schaden am Fahrzeug dar und lehn dich zurück. Um den Rest kümmern wir uns.
-        actions:
-          - label: Jetzt abrechnen
-            url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
-
-  - section_id: call-to-action
-    component: cta_block.html
-    type: ctablock
-    title: Jetzt fiktiv abrechnen!
-    subtitle: Wir wickeln deinen Schaden für dich einfach und schnell ab!
-    actions:
-      - label: fiktiv abrechnen
-        url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
-
-
-  - section_id: pricing
-    component: pricing_block.html
-    type: pricingblock
-    bg: gray
-    title: Wir wickeln deinen Schaden ab!
-    subtitle: Egal ob teilkasko-, vollkaskoversichert oder Haftpflichtschaden - fiktiv Abrechnen ist leicht gemacht.
-    pricingplans:
-      - price: Teilkasko
-        details: |-
-            Egal ob Diebstahl, Glasbruch, Wildschaden oder Brand. Wir rechnen für Dich fiktiv ab.
-        actions:
-          - label: Erfahre mehr.
-            url: teilkasko
-      - price: Haftpflicht
-        highlight: true
-        details: |-
-            Nicht selber schuld? Umso besser, wir setzen deinen Anspruch durch und du erhälst schnell dein Geld.
-        actions:
-          - label: Erfahre mehr.
-            url: haftpflicht
-      - price: Vollkasko
-        details: |-
-            Selbstverschuldeter Unfall oder Schaden am Fahrzeug? Kein Problem! Wir rechnen für dich fiktiv ab.
-        actions:
-          - label: Erfahre mehr.
-            url: vollkasko
-
-  - section_id: solutions
-    component: features_block.html
-    type: featuresblock
-    bg: gray
-    featureslist:
-      - title: Was ist fiktiv abrechnen?
-        image: images/SVG/undraw_Vehicle_sale_a645.svg
-        content: >-
-          Nicht jeder Schaden am Fahrzeug muss gleich repariert werden. Wir bieten Nutzern die Möglichkeit, einfach fiktiv abzurechnen. Das Ganze sogar ohne einen lästigen Werkstattbesuch und digital von zu Hause. Mit nur ein paar Klicks kann jeder Autofahrer einfach an sein Geld kommen & das dazu noch günstiger als bei der Werkstatt um die Ecke!
-        actions:
-          - label: Erfahre mehr.
-            url: info
-  
-  - section_id: call-to-action
-    component: cta_block.html
-    type: ctablock
-    title: In unter 5 Minuten zum Kostenvoranschlag!
-    subtitle: Wir setzen deinen Anspruch durch.
-    actions:
-      - label: fiktiv abrechnen
-        url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
-
   - section_id: faq
     component: faq_block.html
     type: faqblock
@@ -125,6 +26,23 @@ sections:
       - question: Kann ich auch bei einem wirtschaftlichen Totalschaden fiktiv abrechnen?
         answer: >-
             Na selbstverständlich geht das. Hierzu benötigst du ein Gutachten. Im Haftpflichtschadenfall vermitteln wir dir kostenlos (!) einen Sachverständigen, der sogar zu dir nach Hause kommt zur Besichtigung. Ausgezahlt bekommst du in diesem Fall den Wiederbeschaffungswert abzüglich Restwert. Im Teil- oder Vollkaskoschadenfall funktioniert das ähnlich. Hier bieten wir dir im ersten Schritt die Erstellung eines Kostenvoranschlages; sollten die Reparaturkosten nun doch so hoch sein, dass ein Gutachter benötigt wird, dann wird deine Versicherung diesen für Dich beauftragen und du musst Dich um nichts weiter kümmern.
+
+
+
+  - section_id: call-to-action
+    component: cta_block.html
+    type: ctablock
+    title: In unter 5 Minuten zum Kostenvoranschlag!
+    subtitle: Wir setzen deinen Anspruch durch.
+    actions:
+    - label: fiktiv abrechnen
+      url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+
+  - section_id: faq
+    component: faq_block.html
+    type: faqblock
+    bg: gray
+    faqitems:
       - question: Wie lange dauert die Abwicklung mit mr fiktiv beim fiktiven Abrechnen?
         answer: >-
             Das kommt darauf an, welchen Service du bei uns buchst. Wir bieten dir beispielsweise einen 12h-Express Service. Mit diesem Paket erhältst du in nur 12h deine fertig aufbereiteten Schadensbilder zurück, sowie eine Unfallschadenkalkulation nach Herstellervorgaben. Solltest du den Versand an deine Versicherung ebenso gebucht haben, bekommst du innerhalb weniger Stunden eine Versandbestätigung an deine hinterlegte E-Mailadresse. Auch ohne den Express-Service bieten wir dir aber eine schnelle und einfache Abwicklung direkt von zu Hause. Kalkulationen sollten nie länger als 24h auf sich warten lassen. Danach liegt es an deiner Versicherung. Sollte es länger dauern als gedacht zögere nicht und kontaktiere uns oder direkt deine Versicherung unter Angabe deiner Schadensnummer. Schon gewusst, dass die durchschnittliche Auszahlungssumme im Jahr 2019 bei über 1.900,00€ lag? Da sind 5 Minuten und nur 29€ für unseren digitalen Service doch ein super Investment!
@@ -144,45 +62,6 @@ sections:
         answer: >-
             Deine Frage war nicht dabei und du fragst Dich, was du jetzt am besten machen kannst? du hilfst mr fiktiv besser zu werden. Schreib uns einfach eine Mail, kontaktiere uns über Facebook, Instagram oder bei Twitter. Gerne kannst du uns deine Frage auch im Kontaktformular hinterlassen! Wir finden sicher eine Antwort für all deine Fragen; zumindest solange diese sich um das Thema der fiktiven Abrechnung dreht, denn das können wir am besten!
 
-
-  - section_id: recent-posts
-    component: posts_block.html
-    type: postsblock
-    bg: gray
-    title: Latest Posts
-
-  - section_id: call-to-action
-    component: cta_block.html
-    type: ctablock
-    title: Jetzt fiktiv abrechnen!
-    subtitle: Wir wickeln deinen Schaden für dich einfach und schnell ab!
-    actions:
-      - label: fiktiv abrechnen
-        url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
-        
-
-  - section_id: partner
-    component: slider.html
-    type: reviewsblock
-    bg: gray
-    title: Unsere Partner
-    images:
-      - image: images/partner/ico.jpeg
-        url: https://www.innovationscentrum-osnabrueck.de/
-      - url: https://ki-verband.de/
-        image: images/partner/Ki_Verband_Logo_klein.png
-      - url: https://aws.com
-        image: https://d0.awsstatic.com/logos/powered-by-aws.png
-      - image: images/partner/seedhouse_logo_greenblack_sign.png
-        url: https://www.seedhouse.de/
-      - image: images/partner/Logo_BVMW_tagline_positiv_RGB_M.png
-        url: https://www.seedhouse.de/
-      - image: images/partner/mmmint_alt.png
-        url: https://www.mmmint.ai/
-      - image: images/partner/koopmann.png
-        url: https://www.spotrepair-os.de/
-      - image: images/partner/restemeier.png
-        url: https://www.smartrepair-os.de/
 layout: home
 ---
 

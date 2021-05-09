@@ -1,4 +1,4 @@
-title: mmmint.ai - building smart solutions
+title: Jetzt fiktiv abrechnen mit mrfiktiv.
 baseurl: /
 permalink: "/:year/:month/:day/:title/"
 collections:
@@ -6,21 +6,22 @@ collections:
     permalink: "/blog/:year/:month/:day/:title/"
 
 header:
-  title: mmmint.ai
+  title: mrfiktiv
   logo_img: images/logo.png
   has_nav: true
   nav:
     Home: "index"
+    Info: "info"
+    FAQ: "faq"
     Blog: "blog"
-    Solutions: "solutions"
   palette: blue
   menu:
     actions:
       - label: Sign Up
         url: /signup
 footer:
-  logo_img: images/logo_alt.png
-  tagline: mmmint.ai - building smart solutions
+  logo_img: images/logo.png
+  tagline: mrfiktiv - jetzt fiktiv abrechnen
   content: "&copy; MMM Intelligence UG (haftungsbeschränkt). All rights reserved."
   links:
     - text: Impressum
@@ -36,11 +37,11 @@ footer:
   nav:
     Home: "index"
     Blog: "blog"
-    Solutions: "solutions"
-    Workshops: "workshops"
-    Career: "career"
-    About: "about"
-    Status: "solutions/status"
+    Infos: "info"
+    FAQ: "faq"
+    Partner: "partner"
+    Career: "https://www.mmmint.ai/career/"
+    About: "https://www.mmmint.ai/about/"
 
   has_subscribe: true
   subscribe_title: "Subscribe"
