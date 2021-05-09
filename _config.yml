@@ -40,8 +40,6 @@ footer:
     Infos: "info"
     FAQ: "faq"
     Partner: "partner"
-    Career: "https://www.mmmint.ai/career/"
-    About: "https://www.mmmint.ai/about/"
 
   has_subscribe: true
   subscribe_title: "Subscribe"
