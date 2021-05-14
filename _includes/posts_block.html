@@ -14,9 +14,17 @@
       <article class="post post-card">
         <div class="post-card-inside">
           {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
+          {% assign sm_thumb_img_path_is_not_empty = post.thumb_img_path_sm | is_not_empty %}
           {% if thumb_img_path_is_not_empty %}
-          <a class="post-card-thumbnail" href="{{ post.url | relative_url }}"><img class="thumbnail"
-              src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}" /></a>
+            {% if thumb_img_sm_path_is_not_empty %}
+              <a class="post-card-thumbnail" href="{{ post.url | relative_url }}">
+                <img src="{{ post.thumb_img_path | relative_url }}" srcset="{{ post.thumb_img_path_sm | relative_url }} 360w" alt="{{ feature.title }}">        
+              </a>
+            {% else %}
+              <a class="post-card-thumbnail" href="{{ post.url | relative_url }}"><img class="thumbnail"
+                src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}" />
+              </a>
+            {% endif %}
           {% endif %}
           <div class="post-card-content">
             <header class="post-header">
