@@ -31,6 +31,9 @@ sections:
     featureslist:  
       - title: Wir wickeln deinen Schaden ab
         image: images/stepper/schadensabwicklung_overview_1.png
+        imagexs: images/stepper/schadensabwicklung_overview_1_xs.png
+        imagesm: images/stepper/schadensabwicklung_overview_1_sm.png
+        imagemd: images/stepper/schadensabwicklung_overview_1_md.png
         content: >-
           mrfiktiv ist eine Plattform, auf der Kunden bei der Abrechnung von Autoschäden geholfen wird.​ Eine digitale Schadensabrechnung nach Autounfällen – kein Werkstattbesuch, keine Reparatur und schnelles Geld. ​
         actions:
@@ -38,6 +41,9 @@ sections:
             url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
       - title: Unter 5 Minuten Zeitaufwand.
         image: images/stepper/schadensabwicklung_overview_2.png
+        imagexs: images/stepper/schadensabwicklung_overview_2_xs.png
+        imagesm: images/stepper/schadensabwicklung_overview_2_sm.png
+        imagemd: images/stepper/schadensabwicklung_overview_2_md.png
         content: >-
           Lass uns einfach ein paar Details zum Schaden am Fahrzeug dar und lehn dich zurück. Um den Rest kümmern wir uns.
         actions:
@@ -167,13 +173,13 @@ sections:
     bg: gray
     title: Unsere Partner
     images:
-      - image: images/partner/ico.jpeg
+      - image: images/partner/ico_nobg.png
         url: https://www.innovationscentrum-osnabrueck.de/
       - url: https://ki-verband.de/
         image: images/partner/Ki_Verband_Logo_klein.png
       - url: https://aws.com
         image: https://d0.awsstatic.com/logos/powered-by-aws.png
-      - image: images/partner/seedhouse_logo_greenblack_sign.png
+      - image: images/partner/seedhouse_logo_greenblack_sign_nobg.png
         url: https://www.seedhouse.de/
       - image: images/partner/Logo_BVMW_tagline_positiv_RGB_M.png
         url: https://www.seedhouse.de/
