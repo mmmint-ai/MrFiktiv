@@ -15,10 +15,19 @@
     <div class="block-item">
       <div class="grid">
         {% assign image_is_not_empty = feature.image | is_not_empty %}
+        {% assign xs_image_is_not_empty = feature.imagexs | is_not_empty %}
+        {% assign sm_image_is_not_empty = feature.imagesm | is_not_empty %}
+        {% assign md_image_is_not_empty = feature.imagemd | is_not_empty %}
         {% if image_is_not_empty %}
-        <div class="cell block-preview">
-          <img src="{{ feature.image | relative_url }}" alt="{{ feature.title }}" />
-        </div><!-- .block-preview -->
+          {% if xs_image_is_not_empty && sm_image_is_not_empty && md_image_is_not_empty%}
+          <div class="cell block-preview">
+            <img src="{{ feature.image | relative_url }}" srcset="{{ feature.imagexs | relative_url }} 256w, {{ feature.imagesm | relative_url }} 512w, {{ feature.imagemd | relative_url }} 1024w, {{ feature.image | relative_url }} 1536w" alt="{{ feature.title }}">
+          </div><!-- .block-preview -->
+          {% else %}
+          <div class="cell block-preview">
+            <img src="{{ feature.image | relative_url }}" alt="{{ feature.title }}" />
+          </div><!-- .block-preview -->
+          {% endif %}
         {% endif %}
         <div class="cell block-content">
           <h3 class="block-title underline">{{ feature.title }}</h3>

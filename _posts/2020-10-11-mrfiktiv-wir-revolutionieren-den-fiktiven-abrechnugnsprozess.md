@@ -4,6 +4,7 @@ title:  "Wir revolutionieren den Abrechnungsprozess von Fahrzeugschäden mit Ihr
 subtitle: "Einfacher. Transparenter. Günstiger. Schneller. Einfach besser."
 date:   2020-10-11
 thumb_img_path: images/posts/2020-10-11-mrfiktiv-wir-revolutionieren-den-fiktiven-abrechnugnsprozess/michael-jin-mCj7atG0nEc-unsplash_thumb.jpg
+thumb_img_path_sm: images/posts/2020-10-11-mrfiktiv-wir-revolutionieren-den-fiktiven-abrechnugnsprozess/michael-jin-mCj7atG0nEc-unsplash_thumb_sm.jpg
 share-img: images/posts/2020-10-11-mrfiktiv-wir-revolutionieren-den-fiktiven-abrechnugnsprozess/michael-jin-mCj7atG0nEc-unsplash_thumb.jpg
 ---
 
