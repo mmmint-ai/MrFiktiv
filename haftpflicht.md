@@ -30,7 +30,7 @@ sections:
     subtitle: Wir wickeln deinen Schaden für dich einfach und schnell ab!
     actions:
     - label: fiktiv abrechnen
-      url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+      url: https://app.mrfiktiv.com/
 
   - section_id: mrfiktiv
     component: features_block.html
@@ -38,7 +38,7 @@ sections:
     bg: gray
     featureslist:
       - label: fiktiv abrechnen
-        url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+        url: https://app.mrfiktiv.com/
       - title: Kleiner Tipp
         image: images/SVG/undraw_new_ideas_jdea.svg
         content: >- 
@@ -50,7 +50,7 @@ sections:
           Im Haftpflichtschadenfall benötigen wir von dir tatsächlich nur 2 Unterschriften. Den Rest machen unsere Profis vor Ort mit dir. Eine Unterschrift auf der Abtretungserklärung für unseren Sachverständigen aus deiner Nähe. Dieser rechnet direkt mit der gegnerischen Versicherung ab. Auch hier entstehen keine Kosten für dich! Ohne Gutachten gibt es auch keine ausgezahlte Wertminderung für dich, dass würde ich mir nicht durch die Finger gehen lassen. Eine Unterschrift auf der Abtretungserklärung für unseren Service der Rechtsberatung. Ein Profi aus dem Verkehrs- und Schadensrecht wird dafür sorgen, dass alle deine Ansprüche gegenüber der gegnerischen Versicherung geltend gemacht werden. Keine Kosten für dich, aber dafür die Garantie auf Erstattung der Umkostenpauschale, eventuell Nutzungsaufall und je nach Schadensfall sogar Schmerzensgeld.
         actions:
           - label: fiktiv abrechnen
-            url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+            url: https://app.mrfiktiv.com/
 
   - section_id: pricing
     component: pricing_block.html
