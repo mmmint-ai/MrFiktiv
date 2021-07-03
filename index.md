@@ -14,7 +14,7 @@ sections:
       Schaden am Auto und Lust auf bares Geld? Jetzt fiktiv abrechnen. Bequem von zu Hause & ohne Werkstattbesuch. Wir wickeln deinen Schaden für dich ab.
     actions:
       - label: Fiktiv abrechnen.
-        url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+        url: https://app.mrfiktiv.com/
 
   - section_id: solutions
     component: features_block.html
@@ -57,7 +57,7 @@ sections:
     subtitle: Wir wickeln deinen Schaden für dich einfach und schnell ab!
     actions:
       - label: fiktiv abrechnen
-        url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+        url: https://app.mrfiktiv.com/
 
 
   - section_id: pricing
@@ -107,7 +107,7 @@ sections:
     subtitle: Wir setzen deinen Anspruch durch.
     actions:
       - label: fiktiv abrechnen
-        url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+        url: https://app.mrfiktiv.com/
 
   - section_id: faq
     component: faq_block.html
@@ -164,7 +164,7 @@ sections:
     subtitle: Wir wickeln deinen Schaden für dich einfach und schnell ab!
     actions:
       - label: fiktiv abrechnen
-        url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+        url: https://app.mrfiktiv.com/
         
 
   - section_id: partner
