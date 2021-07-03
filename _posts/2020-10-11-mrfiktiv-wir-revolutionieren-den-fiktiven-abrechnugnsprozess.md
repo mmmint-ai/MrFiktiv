@@ -41,4 +41,4 @@ Durch mrfiktiv werden Kunden und Werkstätten in einem digitalen Raum zusammenge
 - Postalischer Printservice für 4,99€.
 - Versand an Versicherung für 4,99€.
 
-[Jetzt abrechnen!](https://app.mrfiktiv.com/#/partner/mrfiktiv/contact)
+[Jetzt abrechnen!](https://app.mrfiktiv.com/)
