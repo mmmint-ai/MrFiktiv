@@ -36,7 +36,7 @@ sections:
     subtitle: Wir setzen deinen Anspruch durch.
     actions:
     - label: fiktiv abrechnen
-      url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+      url: https://app.mrfiktiv.com/
 
   - section_id: faq
     component: faq_block.html
