@@ -32,7 +32,7 @@ sections:
     subtitle: Wir wickeln deinen Schaden für dich einfach und schnell ab!
     actions:
     - label: fiktiv abrechnen
-      url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+      url: https://app.mrfiktiv.com/
 
   - section_id: pricing
     component: pricing_block.html
