@@ -38,7 +38,7 @@ sections:
           mrfiktiv ist eine Plattform, auf der Kunden bei der Abrechnung von Autoschäden geholfen wird.​ Eine digitale Schadensabrechnung nach Autounfällen – kein Werkstattbesuch, keine Reparatur und schnelles Geld. ​
         actions:
           - label: Jetzt abrechnen
-            url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+            url: https://app.mrfiktiv.com/
       - title: Unter 5 Minuten Zeitaufwand.
         image: images/stepper/schadensabwicklung_overview_2.png
         imagexs: images/stepper/schadensabwicklung_overview_2_xs.png
@@ -48,7 +48,7 @@ sections:
           Lass uns einfach ein paar Details zum Schaden am Fahrzeug dar und lehn dich zurück. Um den Rest kümmern wir uns.
         actions:
           - label: Jetzt abrechnen
-            url: https://app.mrfiktiv.com/#/partner/mrfiktiv/contact
+            url: https://app.mrfiktiv.com/
 
   - section_id: call-to-action
     component: cta_block.html
